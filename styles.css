@@ -118,7 +118,7 @@ h2 {
   margin-right: 10px;
 }
 
-#vertical-line {
+.cursor {
   margin-left: 5px;
   margin-bottom: 5px;
   height: 2.5rem;
