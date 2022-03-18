@@ -31,8 +31,6 @@ function nameDisplay1() {
         counter = 0;
         cursorCounter = 0;
         currentWord = companies[index];
-/*         display1.innerHTML = "";
-        back = false; */
         typewriter();
     }
 
