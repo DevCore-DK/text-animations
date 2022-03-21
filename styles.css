@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-y: scroll;
+}
+
 p, a {
   font-family: 'Courier New', Courier, monospace;
   color: black;
@@ -127,4 +131,8 @@ h2 {
 
 .relative {
   position: relative;
+}
+
+.mb-4rem {
+  margin-bottom: 4rem;
 }
