@@ -93,6 +93,10 @@ body {
     color: #ffffff;
 }
 
+.only-bg {
+    display: none;
+}
+
 @media only screen and (min-width: 575px) {
     .block-resp {
         height: 150px;
@@ -190,6 +194,9 @@ body {
 
     .display-btn {
         margin: 10px 0 0 0;
+    }
+    .only-bg {
+        display: inline-block;
     }
 }
 
