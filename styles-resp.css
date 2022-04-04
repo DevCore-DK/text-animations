@@ -28,6 +28,13 @@ body {
     z-index: 2;
 }
 
+.static-content-resp {
+    display: inherit;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
 .dynamic-content-resp {
     display: inherit;
     align-items: center;
@@ -46,6 +53,16 @@ body {
     text-align: center;
 }
 
+.h1-resp {
+    font-size: 16px;
+    text-align: center;
+}
+
+.h3-resp {
+    font-size: 12px;
+    text-align: center;
+}
+
 .display-name-resp {
     display: flex;
     justify-content: space-between;
@@ -54,13 +71,53 @@ body {
     margin: 0.8rem 0.8rem 0 0.8rem;
 }
 
+.display-link {
+    color: #E50C7E;
+    text-decoration: underline;
+}
+
+.display-btn {
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    padding: 6px;
+    margin: 0 0 0 10px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+.display-btn:hover {
+    border: 1px solid #E50C7E;
+    background-color: #E50C7E;
+    color: #ffffff;
+}
+
 @media only screen and (min-width: 575px) {
     .block-resp {
         height: 150px;
     }
 
+    .static-content-resp {
+        width: 560px;
+    }
+
     .text-resp {
         font-size: 24px;
+    }
+
+    .h1-resp {
+        font-size: 24px;
+    }
+
+    .h3-resp {
+        font-size: 16px;
+    }
+
+    .display-btn {
+        margin: 0 0 0 20px;
+        padding: 8px;
+        font-size: 14px;
     }
 
     .cursor-resp {
@@ -77,12 +134,22 @@ body {
         padding: 0 8.678%;
     }
 
+    .static-content-resp {
+        width: 620px;
+        margin-bottom: 20px;
+    }
+
     .text-resp {
         font-size: 32px;
     }
 
-    .cursor-resp {
-        height: 40px;
+    .h3-resp {
+        font-size: 18px;
+    }
+
+    .display-btn {
+        margin: 0 0 0 16px;
+        font-size: 16px;
     }
 }
 
@@ -101,8 +168,28 @@ body {
         padding: 0 0 0 8.678%;
     }
 
+    .static-content-resp {
+        width: 470px;
+        margin-right: 30px;
+        margin-bottom: 0px;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
     .text-resp {
         text-align: left;
+    }
+
+    .h1-resp {
+        text-align: left;
+    }
+
+    .h3-resp {
+        text-align: right;
+    }
+
+    .display-btn {
+        margin: 10px 0 0 0;
     }
 }
 
@@ -111,7 +198,21 @@ body {
         padding: 0 0 0 125px;
     }
 
+    .static-content-resp {
+        width: 500px;
+        margin-right: 50px;
+        margin-bottom: 0px;
+    }
+
     .display-name-resp {
         margin: 0.8rem auto 0 auto;
+    }
+
+    .h1-resp {
+        font-size: 32px;
+    }
+
+    .cursor-resp {
+        height: 40px;
     }
 }
